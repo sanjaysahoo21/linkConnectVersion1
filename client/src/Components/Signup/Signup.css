@@ -41,6 +41,22 @@ input:focus{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
+.selection-inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.selection-inputs label{
+    font-size: 1.8rem;
+}
+.selection-inputs select{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    border : none;
+}
 /*login form button*/
 .signup-form form button{
     padding: 1rem 14.5rem;
